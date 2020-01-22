@@ -1,0 +1,85 @@
+        
+        .create-course {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: inherit;
+            justify-content: center;
+            //background-color: aquamarine;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        
+        .create-course-title {
+            width: 100%;
+            font-size: 30px;
+            //background-color: greenyellow;
+            padding: 0.3em;
+            text-align: center;
+        }
+        
+        .create-course-container {
+            display: flex;
+            flex-direction: row;
+            width: 500px;
+            height: inherit;
+            width: inherit;
+            //background-color: mediumslateblue;
+            padding: 1.3em;
+            justify-content: center;
+        }
+        
+        .create-course-container #cnt {
+            background-color: white;
+            margin: 2px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 1.3em;
+        }
+        
+        .lessons-list {
+            width: 300px;
+            border: 2px solid gray;
+        }
+        
+        .stage {
+            width: 900px;
+            border: 2px solid gray;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+            border-bottom: 1.3em;
+            border-bottom-color: gray;
+        }
+        
+        ul li {
+            border: 1.5em;
+            border-bottom: 1.5em;
+            border-bottom-color: gray;
+            border-bottom-width: 0.1em;
+            border-bottom-style: solid;
+            margin-bottom: 10px;
+        }
+        
+        /*.course-button {
+            background-image: linear-gradient(to bottom, #57b, #148);
+            box-shadow: 0.1em 0.1em 0.5em #124;
+            padding: 1em;
+            border: 0;
+            font-size: 0.8em;
+            border-radius: 0.5em;
+            color: white;
+        }
+        
+        .course-button:active {
+            box-shadow: inset 0 0 0.5em #124, inset 0 0.5em 1em rgba(0, 0, 0, 0.4);
+        }*/
+        
+        .course-footer {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 0.3em;
+        }

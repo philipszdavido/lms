@@ -2,8 +2,8 @@
 
 /server - Copy
 /src_
-/src
 /tools
+/src/assets/_bootstrap
 
 # dependencies
 /node_modules

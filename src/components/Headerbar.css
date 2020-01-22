@@ -1,0 +1,27 @@
+.header-bar {
+    width:inherit;
+    background-color: #3029f4c4;
+    height: 50px;
+    display: flex;
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    flex-direction: row;
+}
+
+.header-bar-title {
+    color: white;
+    font-style: normal;
+    font-weight: 700;  
+    margin-right: 12px;  
+}
+
+.right-menu {
+float: right;
+width: 92%;
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+justify-content: flex-end;
+margin-bottom:  11px;
+}

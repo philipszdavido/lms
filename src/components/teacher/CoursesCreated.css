@@ -1,0 +1,66 @@
+        .courses-created-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: inherit;
+            height: inherit;
+        }
+        
+        .courses-created-card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 800px;
+            height: 200px;
+            display: flex;
+            border-radius: 8px;
+            margin-left: 5px;
+            margin-right: 5px;
+            justify-content: center;
+            border: 2px solid gray;
+            margin-top:12px;
+        }
+        
+        .courses-created-card-img {
+            background-color: brown;
+            width: 350px;
+            margin: 15px;
+        }
+
+        .courses-created-img {
+            width:100%;
+            height: 100%;
+        }
+
+        .courses-created-card-text {
+            font-size: 40px;
+        }
+        
+        .courses-created-desc {
+            margin-right: 5px;
+            flex-direction: column;
+            min-width: 587.1px;
+            min-height:72px;
+            margin-left: 5px;
+        }
+        
+        .hori-divider {
+            width: 1005;
+            height: 1px;
+            background-color: #80808052;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .courses-created-card-footer {
+            display: flex;
+            align-items: center;
+            margin: 15px;
+            font-size: 15px;
+        }
+.courses-created-h{
+font-style: normal;font-weight: 900;/*! letter-spacing: 0.113em; *//*! line-height: 1; */
+}
+
+.enrolled{
+font-style: italic;font-size: 15px;font-weight: 600;
+}
