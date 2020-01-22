@@ -2,7 +2,9 @@ import React, { Component } from "react"
 import axios from 'axios'
 import "./Register.css"
 
-const url ="http://localhost:5000/api/"
+// const url ="http://localhost:5000/api/"
+
+const url = process.env.NODE_ENV === 'production' ? "/api/" : "http://localhost:5000/api/"
 const log = console.log
 
 class Register extends Component {

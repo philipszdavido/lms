@@ -1,5 +1,9 @@
 import axios from "axios"
-const url ="http://localhost:5000/api/"
+
+// const url ="http://localhost:5000/api/"
+
+const url = process.env.NODE_ENV === 'production' ? "/api/" : "http://localhost:5000/api/"
+
 const log = console.log
 
 class LStorage {

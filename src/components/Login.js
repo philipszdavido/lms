@@ -3,7 +3,9 @@ import React, { Component } from "react"
 import "./Login.css"
 
 const log = console.log
-const url ="http://localhost:5000/api/"
+// const url ="http://localhost:5000/api/"
+
+const url = process.env.NODE_ENV === 'production' ? "/api/" : "http://localhost:5000/api/"
 
 class Login extends Component {
     constructor() {
