@@ -1,5 +1,9 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+github_access_token.txt
+
+/dist
+
 /server - Copy
 /src_
 /tools
